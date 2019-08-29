@@ -1,18 +1,17 @@
-.header a, a:hover { /*Урок 19.*/
-    color: #f0ad4e; /*Цвет букв Логотипа*/  /*Для наших элементов меню и ссылок (псевдо класса a hover меняет 
-    цвет ссылок меню при наведении на них мышью) задаем другой цвет букв, с синего на белый*/
-    text-decoration: none; /*убираем подчеркивание ссылок МЕНЮ*/
+.header a, a:hover { 
+    color: #f0ad4e; 
+    text-decoration: none; 
 }  
 
-.header h1 {  /*задаем стили для заголовков первого уровня */
-	letter-spacing: 15px; /*межбуквенный интервал*/
-	font-size: 300%; /*размер шрифта*/
+.header h1 {  
+	letter-spacing: 15px; 
+	font-size: 300%; 
 }   
 
-.header p {  /*задаем стили для нашего параграфа с слогоном, который находится в нутри header*/
-    color: white !important; /*белый цвет букв слогана и при конфликте этот стиль является приоритетным*/
-    font-size: 90%; /*размер шрифта*/
-    letter-spacing: 3px; /*межбуквенный интервал*/
+.header p {  
+    color: white !important; 
+    font-size: 90%; 
+    letter-spacing: 3px; 
 }  
 
 /*Урок 21.*/

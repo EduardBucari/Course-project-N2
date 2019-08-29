@@ -1,223 +1,185 @@
-.header a, a:hover { 
-    color: #f0ad4e; 
-    text-decoration: none; 
-}  
-
-.header h1 {  
-	letter-spacing: 15px; 
-	font-size: 300%; 
-}   
-
-.header p {  
-    color: white !important; 
-    font-size: 90%; 
-    letter-spacing: 3px; 
-}  
-
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-	color: #fff;
-	background-color: #346270;
+.header a,
+a:hover {
+  color: #f0ad4e;
+  text-decoration: none;
 }
 
-.nav-pills>li>a {
-	color: #fff;
+.header h1 {
+  letter-spacing: 15px;
+  font-size: 300%;
 }
 
-.nav-pills>li>a:hover {
-	background-color: #346270;
+.header p {
+  color: white !important;
+  font-size: 90%;
+  letter-spacing: 3px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  color: #fff;
+  background-color: #346270;
+}
+
+.nav-pills > li > a {
+  color: #fff;
+}
+
+.nav-pills > li > a:hover {
+  background-color: #346270;
 }
 
 .navbar-inverse {
-	background-color: #222;
-	border-color: #080808;
-	padding: 1%;
-	border-radius: 0;
+  background-color: #222;
+  border-color: #080808;
+  padding: 1%;
+  border-radius: 0;
 }
-
 
 @media (max-width: 767px) {
-	.nav-pills>li{
-		float: none; /*отказываемся прижимать элементы МЕНЮ к левому краю, для того чтобы они стали вертикально*/
-	}
+  .nav-pills > li {
+    float: none;
+  }
 
-	.nav-pills {
-		text-align: center; /*Выставляем элементы МЕНЮ по центру.*/
-	}
+  .nav-pills {
+    text-align: center;
+  }
 
+  .header h1 {
+    font-size: 280%; /*изменим размер шрифта*/
+    letter-spacing: 5px; /*уменьшаем межбуквенный интервал до 5рх.*/
+  }
 
-/* Урок 26. Для маленького разрешения экрана мы уменьшим шрифт логотипа КиноМонстер и по центру поставим 
-логотип и слоган.*/
-.header h1 {
-	font-size: 280%; /*изменим размер шрифта*/
-	letter-spacing: 5px; /*уменьшаем межбуквенный интервал до 5рх.*/	
-}
-
-.header {
-	text-align: center; /*выставляем весь заголовок (логотип и слоган) по центру*/ 
-}
-
+  .header {
+    text-align: center; /*выставляем весь заголовок (логотип и слоган) по центру*/
+  }
 }
 /*Верхний блок (header) нашего сайта готов.*/
-
-
-
-
-
-
-
 
 /*Урок 28. Создаем правый и левый блоки. И стилизуем див clear - это разделитель между
 правым и левым блоками.*/
 .clear {
-	clear: both; /*Отменяем обтекание элемента одновременно с правого и левого края. */
-	height: 63px;/*высота*/
+  clear: both; /*Отменяем обтекание элемента одновременно с правого и левого края. */
+  height: 63px; /*высота*/
 }
 
 /*Весь контент левого и правого блока хранится в диве wrapper, сейчас мы его стилизуем*/
 .wrapper {
-	min-height: 100%; /*минимальная высота 100%, за счет этого прижимаем footer к низу.*/
+  min-height: 100%; /*минимальная высота 100%, за счет этого прижимаем footer к низу.*/
 }
 
-html, body {
-	height: 100%; /*высота 100%, так же прижимает footer к низу.*/
+html,
+body {
+  height: 100%; /*высота 100%, так же прижимает footer к низу.*/
 }
-
-
-
-
 
 /*Урок 32. Стилизуем блоки с фильмами и сериалами*/
- .films_block {
- 	text-align: center; /*выравниваем текста под постерами по центру*/
- }
+.films_block {
+  text-align: center; /*выравниваем текста под постерами по центру*/
+}
 
- /*стилизуем постеры фильмов и сериалов.*/
+/*стилизуем постеры фильмов и сериалов.*/
 .films_block img {
-	margin-bottom: 5%; /*внешний отступ снизу*/
-	border-radius: 5px; /*закругление углов постеров*/
-	border: solid 5px #dad7d5; /* голубая рамка постера*/
-	width: 100%; /*ширина постера 100%, для правельного масшатабирования*/
+  margin-bottom: 5%; /*внешний отступ снизу*/
+  border-radius: 5px; /*закругление углов постеров*/
+  border: solid 5px #dad7d5; /* голубая рамка постера*/
+  width: 100%; /*ширина постера 100%, для правельного масшатабирования*/
 }
 
 /*стилизуем надписи под постерами*/
 .film_label {
-	padding: 2%; /*внутренние отступы*/
-	margin-bottom: 4%; /*внешний отступ снизу*/ 
+  padding: 2%; /*внутренние отступы*/
+  margin-bottom: 4%; /*внешний отступ снизу*/
 }
 
 /*стилизуем отступы (div class="margin-8") между блоком с фильмами и блоком с сериалами.*/
 .margin-8 {
-	margin-top: 8%; /*внешний отступ сверху*/
+  margin-top: 8%; /*внешний отступ сверху*/
 }
-
-
-
 
 /*Урок 37. Стилизум левый блок и его панель.*/
 .panel {
-	border: none; /*отменяем рамку*/
+  border: none; /*отменяем рамку*/
 }
 
 .panel-body {
-	background-color: #f9f9f9; /*фоновый цвет*/	
+  background-color: #f9f9f9; /*фоновый цвет*/
 }
 
-.panel-info>.panel-heading {
-	background-color: #f0ad4e; /*фоновый цвет*/
-	color: white; /*цвет букв - белый*/
-	border-color: transparent; /*прозрачный цвет рамки*/
+.panel-info > .panel-heading {
+  background-color: #f0ad4e; /*фоновый цвет*/
+  color: white; /*цвет букв - белый*/
+  border-color: transparent; /*прозрачный цвет рамки*/
 }
 
 /*стилизуем слово ПОИСК*/
 .sidebar-header {
-	font-size: 120%; /*размер шрифта*/
-	letter-spacing: 2px; /*межбуквенный интервал*/
+  font-size: 120%; /*размер шрифта*/
+  letter-spacing: 2px; /*межбуквенный интервал*/
 }
 
 /*Стилизуем форму*/
 /*делаем рамку ВАШ ЗАПРОС и все остальные рамки без закруглений*/
 .form-control {
-	border-radius: 0px;
+  border-radius: 0px;
 }
 
 /*размер шрифта ВАШ ЗАПРОС уменьшаем*/
 .input-lg {
-	font-size:14px; /*размер шрифта*/
+  font-size: 14px; /*размер шрифта*/
 }
-
-
-
 
 /*Урок 40. Стилизуем панель РЕЙТИНГ ФИЛЬМОВ*/
 .list-group-item-warning {
-	color: #8a6d3b; /**/
-    background-color: #f9f9f9; /**/
+  color: #8a6d3b; /**/
+  background-color: #f9f9f9; /**/
 }
 
 .badge {
-	background-color: #000000; /*цвет значка меняем с серого на черный*/
+  background-color: #000000; /*цвет значка меняем с серого на черный*/
 }
-
-
-
-
-
 
 /*Урок 45. Добавляем информацию о фильме (ниже трелера): Год, Рейтинг, Режисер (в значке badge).
 Увеличим шрифт и отступы между значками.*/
 .info-block {
-	font-size: 120%; /*размер шрифта Год, Рейтинг, Режисер*/
+  font-size: 120%; /*размер шрифта Год, Рейтинг, Режисер*/
 }
 
 .info-block .badge {
-	font-size: 80%; /*размер шрифта в нутри значка (бэйджа)*/
+  font-size: 80%; /*размер шрифта в нутри значка (бэйджа)*/
 }
 
 .info-block span {
-	margin-right: 3%; /*отступы между значками*/
+  margin-right: 3%; /*отступы между значками*/
 }
-
 
 /*Урок 46. Увеличиваем textarea*/
-textarea.form-control{
-	height: 200px;
+textarea.form-control {
+  height: 200px;
 }
-
-
 
 /*Урок 49. Стилизуем данные таблицы*/
-.table tbody>tr>td.vert-align {
-	vertical-align: middle; /*название фильмов и данных фиксируем по средней линии*/
+.table tbody > tr > td.vert-align {
+  vertical-align: middle; /*название фильмов и данных фиксируем по средней линии*/
 }
-
-
-
-
-
-
-
-
-
 
 /*Урок 28. Стилизуем FOOTER.*/
 footer {
-	color: #666; /*цвет*/
-	background: #222; /*цвет фона*/
-	padding: 17px 0 18px 0; /*внутренние отступы*/
-	border-top: 1px solid #000; /*рамка сверху, толщиной 1px, сплошная, цвет черный */ 
+  color: #666; /*цвет*/
+  background: #222; /*цвет фона*/
+  padding: 17px 0 18px 0; /*внутренние отступы*/
+  border-top: 1px solid #000; /*рамка сверху, толщиной 1px, сплошная, цвет черный */
 }
 
 /*Поменяем цвет букв ссылки на сайт с синего на светло-серый*/
 footer a {
-	color: #999;	
+  color: #999;
 }
 
 /*при наведении на ссылку мы меняем цвет из желтого на белый, используем псевдо класс hover*/
 footer a:hover {
-	color: #efefef;
+  color: #efefef;
 }
-
-
-
 
 /**/

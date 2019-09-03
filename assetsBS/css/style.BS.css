@@ -62,7 +62,7 @@ a:hover {
 }
 
 .wrapper {
-  min-height: 100%; /*минимальная высота 100%, за счет этого прижимаем footer к низу.*/
+  min-height: 100%; 
 }
 
 html,

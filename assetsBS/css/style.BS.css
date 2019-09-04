@@ -74,7 +74,6 @@ body {
   text-align: center;
 }
 
-/*стилизуем постеры фильмов и сериалов.*/
 .films_block img {
   margin-bottom: 5%; /*внешний отступ снизу*/
   border-radius: 5px; /*закругление углов постеров*/

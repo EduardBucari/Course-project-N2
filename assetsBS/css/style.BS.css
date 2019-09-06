@@ -77,7 +77,7 @@ body {
 .films_block img {
   margin-bottom: 5%; 
   border-radius: 5px; 
-  border: solid 5px #dad7d5; /* голубая рамка постера*/
+  border: solid 5px #dad7d5; 
   width: 100%; /*ширина постера 100%, для правельного масшатабирования*/
 }
 

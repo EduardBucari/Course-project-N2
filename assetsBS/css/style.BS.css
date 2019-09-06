@@ -78,7 +78,7 @@ body {
   margin-bottom: 5%; 
   border-radius: 5px; 
   border: solid 5px #dad7d5; 
-  width: 100%; /*ширина постера 100%, для правельного масшатабирования*/
+  width: 100%; 
 }
 
 /*стилизуем надписи под постерами*/

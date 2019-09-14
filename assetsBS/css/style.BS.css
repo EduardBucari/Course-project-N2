@@ -100,7 +100,7 @@ body {
 }
 
 .panel-info > .panel-heading {
-  background-color: #f0ad4e; /*фоновый цвет*/
+  background-color: #f0ad4e; /*фоновый*/
   color: white; /*цвет букв - белый*/
   border-color: transparent; /*прозрачный цвет рамки*/
 }

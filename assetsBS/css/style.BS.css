@@ -107,7 +107,7 @@ body {
 
 /*стилизуем слово*/
 .sidebar-header {
-  font-size: 120%; /*размер*/
+  font-size: 120%;
   letter-spacing: 2px; /*межбуквенный интервал*/
 }
 

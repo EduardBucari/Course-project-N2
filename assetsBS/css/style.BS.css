@@ -105,13 +105,11 @@ body {
   border-color: transparent;
 }
 
-
 .sidebar-header {
   font-size: 120%;
   letter-spacing: 2px;
 }
 
-/*Стили*/
 /*делаем рамку ВАШ ЗАПРОС и все остальные рамки без закруглений*/
 .form-control {
   border-radius: 0px;

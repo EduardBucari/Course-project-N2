@@ -144,7 +144,7 @@ textarea.form-control {
   height: 200px;
 }
 
-/*Урок 49. Стилизуем данные */
+/*Урок 49. Стилизуем данны*/
 .table tbody > tr > td.vert-align {
   vertical-align: middle; /*название фильмов и данных фиксируем по средней линии*/
 }

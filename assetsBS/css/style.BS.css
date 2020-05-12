@@ -160,7 +160,7 @@ footer a {
   color: #999;
 }
 
-/*при наведении на ссылку мы меняем цвет из html and  c*/
+/*при наведении на ссылку мы меняем цвет из html and*/
 footer a:hover {
   color: #efefef;
 }
